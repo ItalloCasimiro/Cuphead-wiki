@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/*.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+:root{
+    --amarelo:#FFE74C;
+    --azul-c:#99DDC8;
+    --vermelho:#B9384B;
+    --azul-e:#3C6997;
+    --laranja:#FF8C40;
+    --branco-a:#ADCAD6;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: var(--amarelo);
+}
+
+header{
+  background-image: linear-gradient(to bottom, var(--azul-c), var(--azul-e));
+  text-align: center;
+  padding: 15px;
+}
+
+header > h1{
+  color: white;
+  text-shadow: 3px 3px 2px black;
+  margin-bottom: 10px;
+  font-size: 3.3em;
+}
+
+header > h3{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+header > nav{
+  text-align: start;
+}
+
+header > nav > a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+a:hover{
+  background-color: var(--amarelo);
+  border-radius: 10px;
+  color: black;
+}
+
+a#dlc{
+  background-color: var(--amarelo);
+  border-radius: 10px;
+  color: black;
+}
+
+section > p > a{
+  text-decoration: none;
+  color: black;
+  background-color: var(--amarelo);
+  border-radius: 10px;
+  padding: 3px;
+  font-family: "Patrick Hand", cursive;
+  margin-bottom: 20px;
+}
+
+section > p > a::after{
+  content: "\00A0\1F517";
+}
+
+section{
+  max-width: 980px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+p{
+  text-indent: 30px;
+  padding-bottom: 15px;
+  line-height: 30px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.3em;
+  font-style: normal;
+  text-align: justify;
+}
+
+section > h2{
+  background-image: linear-gradient(to right, var(--laranja), transparent);
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+strong{
+  color: var(--azul-e);
+  font-family: "Patrick Hand", cursive;
+  font-style: normal;
+}
+
+img.conteudo{
+  width: 95%;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--azul-e);
+}
+
+ins{
+  font-family: "Patrick Hand", cursive;
+  font-style: normal;
+}
+
+abbr{
+  color: var(--vermelho);
+  font-family: "Patrick Hand", cursive;
+  font-style: normal;
+}
+
+blockquote{
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+div.container{
+  margin-top: 25px;
+  background-image: url('images/calice.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 60px 20px 20px 60px;
+  margin-bottom: 30px;
+}
+
+div.container > p{
+  background-color: rgba(0, 0, 0, 0.438);
+  color: white;
+  text-indent: 0;
+  width: 50vw;
+  max-width: 200px;
+  height: 130px;
+  padding: 10px;
+  padding-bottom: 100px;
+  font-size: 1.5em;
+  margin-bottom: 150px;
+}
+
+main{
+  background-color: rgb(77, 221, 77);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 550px;
+  margin-top: 10px;
+  margin: auto;
+  line-height: 25px;
+}
+
+main > ins{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
