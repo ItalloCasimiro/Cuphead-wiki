@@ -1,0 +1,2 @@
+# Cuphead wiki
+ 
