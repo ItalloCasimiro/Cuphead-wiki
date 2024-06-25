@@ -134,6 +134,7 @@ abbr{
 blockquote{
   padding-left: 20px;
   line-height: 30px;
+  text-align: justify;
 }
 
 div.container{
