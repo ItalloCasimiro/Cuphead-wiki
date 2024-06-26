@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/*.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+:root{
+    --amarelo:#FFE74C;
+    --azul-c:#99DDC8;
+    --vermelho:#B9384B;
+    --azul-e:#3C6997;
+    --laranja:#FF8C40;
+    --branco-a:#ADCAD6;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: var(--branco-a);
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+header > h1{
+  color: white;
+  text-shadow: 3px 3px 2px black;
+  margin-bottom: 10px;
+  font-size: 3.3em;
+}
+
+header > h3{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+header > nav{
+  text-align: start;
+}
+
+header > nav > a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+a:hover{
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+a#serie{
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+img{
+  width: 90%;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+section{
+  max-width: 980px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+  text-indent: 30px;
+  padding-bottom: 15px;
+  line-height: 30px;
+  font-family: "Patrick Hand", cursive;
+  text-align: justify;
+  font-size: 1.3em;
+  font-style: normal;
+  text-align: justify;
+}
+
+section > h2{
+  background-image: linear-gradient(to right, var(--laranja), transparent);
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+strong{
+  color: var(--azul-e);
+  font-family: "Patrick Hand", cursive;
+  font-style: normal;
+}
+
+ins{
+    font-family: "Patrick Hand", cursive;
+    font-style: normal;
+  }
+  
+  abbr{
+    color: var(--vermelho);
+    font-family: "Patrick Hand", cursive;
+    font-style: normal;
+  }
+
+main{
+  background-color: rgb(77, 221, 77);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 550px;
+  margin-top: 10px;
+  margin: auto;
+  line-height: 25px;
+}
+
+main > ins{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
