@@ -21,11 +21,12 @@
 }
 
 body{
-  background-color: var(--branco-a);
+  background-color: gray;
 }
 
 header{
   background-color: black;
+  background-image: linear-gradient(to bottom, black, rgb(53, 53, 53));
   color: white;
   text-align: center;
   padding: 15px;
